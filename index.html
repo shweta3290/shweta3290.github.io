@@ -1,1 +1,60 @@
-Hello
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>TRAVEL WITH ME</h1>
+<p>We will travel and explore places!!!</p>
+<p id="demo">Click here to know more</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("demo");
+    x.style.fontSize = "40px"; 
+    x.style.color = "blue";
+    
+    }
+
+    </script>
+
+<button onclick="myFunction()">Click Me!</button>
+
+<h2> Explore </h2>
+
+<p1 id="demo1"></p1>
+
+<script>
+
+
+function mytext() {  
+    var y = document.getElementById("demo1");
+    y.style.fontSize = "60px"; 
+    y.style.color = "yellow";
+    y.innerHTML="You are ready to travel";
+}
+    </script>
+
+<button onclick="mytext()">Click Me!</button>
+
+
+
+</body>
+</html>
